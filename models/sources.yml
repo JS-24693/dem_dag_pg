@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: demo_dag_sources
+    database: postgres
+    schema: demo_dag
+    tables:
+      - name: customers
+      - name: orders
+      - name: orders_seed
